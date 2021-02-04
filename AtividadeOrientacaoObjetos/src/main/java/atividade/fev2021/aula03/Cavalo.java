@@ -7,10 +7,6 @@ public class Cavalo extends Animal {
 		super(tamanho, cor);
 		this.raca = raca;
 	}
-	
-	public void fujir() {
-		
-	}
 
 	public String getRaca() {
 		return raca;
@@ -18,5 +14,9 @@ public class Cavalo extends Animal {
 
 	public void setRaca(String raca) {
 		this.raca = raca;
+	}
+	
+	public void fugir() {
+		System.out.println("Fugindo");
 	}
 }
